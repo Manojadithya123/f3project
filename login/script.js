@@ -64,7 +64,7 @@ form.addEventListener('submit',(event)=>{
 
     form.reset();
     document.getElementById('message').innerHTML="";
-    location.href='cart\shop\index.html';
+    location.href='shop\index.html';
 
     
 
