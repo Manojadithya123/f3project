@@ -62,10 +62,11 @@ form.addEventListener('submit',(event)=>{
     document.getElementById('message').setAttribute('class','green')
     document.getElementById('message').innerText='Login sucessful';
 
-    form.reset();
-    document.getElementById('message').innerHTML="";
-    location.href='shop\index.html';
+    setTimeout(() => {
 
+          location.href = '../shop/index.html';
+
+        }, 1000);
     
 
 
